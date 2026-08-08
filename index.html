@@ -1,106 +1,575 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Jeeva — Professional Video Editor & Creative Technologist">
-<title>JEEVA — Visuals in Motion</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Jeeva — Professional Video Editor & Creative Technologist"
+  >
+
+  <title>JEEVA — Visuals in Motion</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
 <div class="noise"></div>
-<div class="loader"><div class="loader-word">JEEVA<span>.</span></div><div class="loader-line"><i></i></div><small>CREATIVE PORTFOLIO</small></div>
+
+<div class="loader">
+  <div class="loader-word">JEEVA<span>.</span></div>
+  <div class="loader-line"><i></i></div>
+  <small>CREATIVE PORTFOLIO</small>
+</div>
 
 <div class="progress"></div>
-<div class="cursor"><span></span></div>
 
+<div class="cursor">
+  <span></span>
+</div>
+
+<!-- NAVIGATION -->
 <header class="nav">
-  <a href="#home" class="logo">JEEVA<span>.</span></a>
+
+  <a href="#home" class="logo">
+    JEEVA<span>.</span>
+  </a>
+
   <nav>
-    <a href="#work">WORK</a><a href="#truthguard">TRUTHGUARD</a><a href="#about">ABOUT</a><a href="#contact">CONTACT</a>
+    <a href="#work">WORK</a>
+    <a href="#truthguard">TRUTHGUARD</a>
+    <a href="#about">ABOUT</a>
+    <a href="#contact">CONTACT</a>
   </nav>
-  <a class="nav-cta" href="#contact">LET'S TALK ↗</a>
+
+  <a class="nav-cta" href="#contact">
+    LET'S TALK ↗
+  </a>
+
 </header>
 
+
 <main>
+
+<!-- =========================
+     HERO
+========================= -->
+
 <section id="home" class="hero">
-  <div class="orb orb-a"></div><div class="orb orb-b"></div>
+
+  <div class="orb orb-a"></div>
+  <div class="orb orb-b"></div>
+
   <div class="hero-grid"></div>
-  <video class="hero-video" autoplay muted loop playsinline poster="images/hero-poster.jpg">
+
+  <video
+    class="hero-video"
+    autoplay
+    muted
+    loop
+    playsinline
+    poster="images/hero-poster.jpg"
+  >
     <source src="videos/showreel.mp4" type="video/mp4">
   </video>
+
   <div class="hero-shade"></div>
+
   <div class="hero-content">
-    <p class="eyebrow split">VIDEO EDITOR × CREATIVE TECHNOLOGIST</p>
-    <h1 class="hero-title"><span>Ideas</span><span>into</span><span class="outline">visuals.</span></h1>
-    <p class="hero-copy">Cinematic edits, motion graphics and digital experiences designed to make people stop, watch and remember.</p>
-    <div class="hero-buttons"><a class="magnetic btn-main" href="#work">EXPLORE WORK <b>↘</b></a><a class="circle-btn" href="#work">↓</a></div>
+
+    <p class="eyebrow split">
+      VIDEO EDITOR × CREATIVE TECHNOLOGIST
+    </p>
+
+    <h1 class="hero-title">
+      <span>Ideas</span>
+      <span>into</span>
+      <span class="outline">visuals.</span>
+    </h1>
+
+    <p class="hero-copy">
+      Cinematic edits, motion graphics and digital experiences designed
+      to make people stop, watch and remember.
+    </p>
+
+    <div class="hero-buttons">
+
+      <a class="magnetic btn-main" href="#work">
+        EXPLORE WORK <b>↘</b>
+      </a>
+
+      <a class="circle-btn" href="#work">
+        ↓
+      </a>
+
+    </div>
+
   </div>
-  <div class="hero-meta"><span>BASED IN INDIA</span><span>AVAILABLE FOR PROJECTS</span><span>SCROLL ↓</span></div>
-  <div class="marquee"><div>EDIT • CREATE • ANIMATE • STORYTELL • EDIT • CREATE • ANIMATE • STORYTELL • </div></div>
+
+  <div class="hero-meta">
+    <span>BASED IN INDIA</span>
+    <span>AVAILABLE FOR PROJECTS</span>
+    <span>SCROLL ↓</span>
+  </div>
+
+  <div class="marquee">
+    <div>
+      EDIT • CREATE • ANIMATE • STORYTELL •
+      EDIT • CREATE • ANIMATE • STORYTELL •
+    </div>
+  </div>
+
 </section>
+
+
+<!-- =========================
+     WORK
+========================= -->
 
 <section id="work" class="section work">
-  <div class="section-top"><p class="eyebrow">01 — SELECTED WORK</p><p class="counter">01 / 03</p></div>
-  <h2 class="section-title reveal">Stories that <em>move.</em></h2>
-  <div class="work-grid">
-    <article class="project p1 reveal">
-      <div class="project-media"><video autoplay muted loop playsinline poster="images/project-1.jpg"><source src="videos/project-1.mp4" type="video/mp4"></video><div class="placeholder">ADD VIDEO</div><div class="project-number">01</div><div class="view">VIEW</div></div>
-      <div class="project-caption"><h3>Cinematic Edit</h3><span>EDITING · COLOR · SOUND</span></div>
-    </article>
-    <article class="project p2 reveal">
-      <div class="project-media"><video autoplay muted loop playsinline poster="images/project-2.jpg"><source src="videos/project-2.mp4" type="video/mp4"></video><div class="placeholder">ADD VIDEO</div><div class="project-number">02</div><div class="view">VIEW</div></div>
-      <div class="project-caption"><h3>Short Form</h3><span>REELS · SHORTS · SOCIAL</span></div>
-    </article>
-    <article class="project p3 reveal">
-      <div class="project-media"><video autoplay muted loop playsinline poster="images/project-3.jpg"><source src="videos/project-3.mp4" type="video/mp4"></video><div class="placeholder">ADD VIDEO</div><div class="project-number">03</div><div class="view">VIEW</div></div>
-      <div class="project-caption"><h3>Motion Graphics</h3><span>AFTER EFFECTS · VFX</span></div>
-    </article>
+
+  <div class="section-top">
+
+    <p class="eyebrow">
+      01 — SELECTED WORK
+    </p>
+
+    <p class="counter">
+      01 / 02
+    </p>
+
   </div>
+
+  <h2 class="section-title reveal">
+    Stories that <em>move.</em>
+  </h2>
+
+
+  <div class="work-grid">
+
+    <!-- PROJECT 1 -->
+
+    <article class="project p1 reveal">
+
+      <div class="project-media">
+
+        <video
+          autoplay
+          muted
+          loop
+          playsinline
+          poster="images/project-1.jpg"
+        >
+          <source
+            src="videos/project-1.mp4"
+            type="video/mp4"
+          >
+        </video>
+
+        <div class="project-number">
+          01
+        </div>
+
+        <div class="view">
+          VIEW
+        </div>
+
+      </div>
+
+      <div class="project-caption">
+
+        <h3>
+          Cinematic Edit
+        </h3>
+
+        <span>
+          EDITING · COLOR · SOUND
+        </span>
+
+      </div>
+
+    </article>
+
+
+    <!-- PROJECT 2 -->
+
+    <article class="project p2 reveal">
+
+      <div class="project-media">
+
+        <video
+          autoplay
+          muted
+          loop
+          playsinline
+          poster="images/project-2.jpg"
+        >
+          <source
+            src="videos/project-2.mp4"
+            type="video/mp4"
+          >
+        </video>
+
+        <div class="project-number">
+          02
+        </div>
+
+        <div class="view">
+          VIEW
+        </div>
+
+      </div>
+
+      <div class="project-caption">
+
+        <h3>
+          Short Form
+        </h3>
+
+        <span>
+          REELS · SHORTS · SOCIAL
+        </span>
+
+      </div>
+
+    </article>
+
+  </div>
+
 </section>
+
+
+<!-- =========================
+     TRUTHGUARD
+========================= -->
 
 <section id="truthguard" class="truth section">
+
   <div class="truth-glow"></div>
-  <div class="section-top"><p class="eyebrow">02 — FEATURED TECH PROJECT</p><p class="counter">AI / 01</p></div>
-  <div class="truth-layout">
-    <div class="truth-screen reveal">
-      <div class="scan"></div>
-      <div class="screen-head"><span>TRUTHGUARD AI</span><i>● LIVE</i></div>
-      <img src="images/truthguard-home.png" alt="TruthGuard AI screenshot" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
-      <div class="placeholder">ADD TRUTHGUARD SCREENSHOT</div>
-      <div class="screen-foot"><span>NLP</span><span>CV</span><span>VERIFICATION</span><span>SCORING</span></div>
-    </div>
-    <div class="truth-copy reveal">
-      <p class="eyebrow">AI × NLP × COMPUTER VISION</p>
-      <h2>TruthGuard<br><em>AI.</em></h2>
-      <p>AI-powered fake news and deepfake detection. A Python + Streamlit application designed to analyze claims, verify evidence and produce a credibility assessment.</p>
-      <div class="tags"><span>PYTHON</span><span>NLP</span><span>OPENCV</span><span>STREAMLIT</span></div>
-      <a href="#" class="magnetic line-link" onclick="return notice('Replace this with your TruthGuard GitHub or live demo link.')">VIEW PROJECT <b>↗</b></a>
-    </div>
+
+  <div class="section-top">
+
+    <p class="eyebrow">
+      02 — FEATURED TECH PROJECT
+    </p>
+
+    <p class="counter">
+      AI / 01
+    </p>
+
   </div>
+
+
+  <div class="truth-layout">
+
+    <div class="truth-screen reveal">
+
+      <div class="scan"></div>
+
+      <div class="screen-head">
+
+        <span>
+          TRUTHGUARD AI
+        </span>
+
+        <i>
+          ● LIVE
+        </i>
+
+      </div>
+
+
+      <img
+        src="images/truthguard-home.png"
+        alt="TruthGuard AI screenshot"
+        onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"
+      >
+
+      <div class="placeholder">
+        ADD TRUTHGUARD SCREENSHOT
+      </div>
+
+
+      <div class="screen-foot">
+
+        <span>NLP</span>
+        <span>CV</span>
+        <span>VERIFICATION</span>
+        <span>SCORING</span>
+
+      </div>
+
+    </div>
+
+
+    <div class="truth-copy reveal">
+
+      <p class="eyebrow">
+        AI × NLP × COMPUTER VISION
+      </p>
+
+      <h2>
+        TruthGuard<br>
+        <em>AI.</em>
+      </h2>
+
+      <p>
+        AI-powered fake news and deepfake detection.
+        A Python + Streamlit application designed to analyze claims,
+        verify evidence and produce a credibility assessment.
+      </p>
+
+      <div class="tags">
+
+        <span>PYTHON</span>
+        <span>NLP</span>
+        <span>OPENCV</span>
+        <span>STREAMLIT</span>
+
+      </div>
+
+
+      <a
+        href="#"
+        class="magnetic line-link"
+        onclick="return notice('Add your TruthGuard GitHub or live demo link.')"
+      >
+        VIEW PROJECT <b>↗</b>
+      </a>
+
+    </div>
+
+  </div>
+
 </section>
+
+
+<!-- =========================
+     ABOUT
+========================= -->
 
 <section id="about" class="section about">
-  <div class="section-top"><p class="eyebrow">03 — ABOUT ME</p><p class="counter">J / 01</p></div>
-  <div class="about-layout">
-    <div class="portrait reveal"><img src="images/profile.jpg" alt="Jeeva" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="placeholder">ADD PROFILE PHOTO</div><div class="portrait-label">JEEVA / CREATOR</div></div>
-    <div class="about-copy reveal"><p class="giant">Creative by nature.<br><em>Technical by curiosity.</em></p><p>I’m Jeeva, a professional video editor focused on cinematic storytelling, engaging short-form content and visual experiences.</p><p>Alongside creative work, I build technology projects such as TruthGuard AI — combining visual creativity with AI and software development.</p><div class="skills"><span>PREMIERE PRO</span><span>AFTER EFFECTS</span><span>DAVINCI</span><span>PHOTOSHOP</span><span>COLOR GRADING</span><span>MOTION GRAPHICS</span><span>PYTHON</span><span>AI / ML</span></div></div>
+
+  <div class="section-top">
+
+    <p class="eyebrow">
+      03 — ABOUT ME
+    </p>
+
+    <p class="counter">
+      J / 01
+    </p>
+
   </div>
+
+
+  <div class="about-layout">
+
+    <div class="portrait reveal">
+
+      <img
+        src="images/profile.jpg"
+        alt="Jeeva"
+        onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"
+      >
+
+      <div class="placeholder">
+        ADD PROFILE PHOTO
+      </div>
+
+      <div class="portrait-label">
+        JEEVA / CREATOR
+      </div>
+
+    </div>
+
+
+    <div class="about-copy reveal">
+
+      <p class="giant">
+        Creative by nature.<br>
+        <em>Technical by curiosity.</em>
+      </p>
+
+      <p>
+        I’m Jeeva, a professional video editor focused on cinematic
+        storytelling, engaging short-form content and visual experiences.
+      </p>
+
+      <p>
+        Alongside creative work, I build technology projects such as
+        TruthGuard AI — combining visual creativity with AI and software development.
+      </p>
+
+
+      <div class="skills">
+
+        <span>PREMIERE PRO</span>
+        <span>AFTER EFFECTS</span>
+        <span>DAVINCI</span>
+        <span>PHOTOSHOP</span>
+        <span>COLOR GRADING</span>
+        <span>MOTION GRAPHICS</span>
+        <span>PYTHON</span>
+        <span>AI / ML</span>
+
+      </div>
+
+    </div>
+
+  </div>
+
 </section>
 
-<section class="statement"><div class="statement-track">YOUR STORY DESERVES <em>GREAT VISUALS.</em> YOUR STORY DESERVES <em>GREAT VISUALS.</em></div></section>
+
+<!-- =========================
+     STATEMENT
+========================= -->
+
+<section class="statement">
+
+  <div class="statement-track">
+
+    YOUR STORY DESERVES
+    <em>GREAT VISUALS.</em>
+
+    YOUR STORY DESERVES
+    <em>GREAT VISUALS.</em>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     CONTACT
+========================= -->
 
 <section id="contact" class="contact">
-  <p class="eyebrow reveal">04 — CONTACT</p>
-  <h2 class="contact-title reveal">Let's create<br><em>something memorable.</em></h2>
-  <a class="email reveal" href="mailto:your@email.com">your@email.com <span>↗</span></a>
-  <div class="socials reveal"><a href="#" onclick="return notice('Add your Instagram link in index.html.')">Instagram ↗</a><a href="#" onclick="return notice('Add your YouTube link in index.html.')">YouTube ↗</a><a href="#" onclick="return notice('Add your LinkedIn link in index.html.')">LinkedIn ↗</a><a href="#" onclick="return notice('Add your GitHub link in index.html.')">GitHub ↗</a></div>
-  <footer><span>© <b id="year"></b> JEEVA</span><span>BUILT WITH CURIOSITY</span></footer>
+
+  <p class="eyebrow reveal">
+    04 — CONTACT
+  </p>
+
+
+  <h2 class="contact-title reveal">
+
+    Let's create<br>
+
+    <em>
+      something memorable.
+    </em>
+
+  </h2>
+
+
+  <!-- EMAIL -->
+
+  <a
+    class="email reveal"
+    href="mailto:kidjeevayt@gmail.com"
+  >
+    kidjeevayt@gmail.com
+    <span>↗</span>
+  </a>
+
+
+  <!-- PHONE -->
+
+  <div class="contact-details reveal">
+
+    <a href="tel:+918248331972">
+      📞 +91 82483 31972
+    </a>
+
+    <a
+      href="https://wa.me/918248331972"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      💬 WhatsApp ↗
+    </a>
+
+    <span>
+      📍 Tamil Nadu, India
+    </span>
+
+  </div>
+
+
+  <!-- SOCIAL LINKS -->
+
+  <div class="socials reveal">
+
+    <a
+      href="https://www.instagram.com/jeev4z_/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Instagram ↗
+    </a>
+
+
+    <a
+      href="https://www.linkedin.com/feed/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      LinkedIn ↗
+    </a>
+
+
+    <a
+      href="https://github.com/kidjeevayt-commits"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      GitHub ↗
+    </a>
+
+
+    <!-- YouTube URL has not been provided yet -->
+
+    <a
+      href="#"
+      onclick="return notice('Add your YouTube channel link to index.html.')"
+    >
+      YouTube ↗
+    </a>
+
+  </div>
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <span>
+      © <b id="year"></b> JEEVA
+    </span>
+
+    <span>
+      BUILT WITH CURIOSITY
+    </span>
+
+  </footer>
+
 </section>
+
 </main>
+
+
 <script src="script.js"></script>
+
 </body>
 </html>
